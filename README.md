@@ -1,16 +1,49 @@
-# chatapp
+# Buzz
 
-A new Flutter project.
+Buzz is a modern chat app written in Flutter that allows users to use it in real-time. Users can register and log in using Firebase Authentication, ensuring secure and simple account management. The application uses Firebase Firestore to store user messages and data, which ensures quick access to information.
 
-## Getting Started
+## Functions
 
-This project is a starting point for a Flutter application.
+- **Registration and Login**: Secure login with Firebase Authentication.
+- **Sending and receiving messages**: Communicate while using Firebase Firestore.
+- **Friendly interface**: Intuitive and responsive design with Flutter.
+- **Multiplatform**: Works on Android and iOS.
 
-A few resources to get you started if this is your first Flutter project:
+## Technology
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Frontend**: Fluttering
+- **Backend**: Firebase (authentication, Firestore, cloud functions)
+- **Languages**: Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. Cloning the repository:
+ ```sh
+ git clone https://github.com/sqrasdf/buzz
+ cd buzz
+ ```
+
+2. Dependent installation:
+ ```sh
+ flutter get pub
+ ```
+
+3. Launching the application:
+ ```sh
+ flutter get run
+ ```
+
+## Screenshots
+
+### Welcome screen and Menu page
+<p float="left">
+  <img src="./screenshots/welcome.jpg" alt="Welcome screen" width="48%" style="margin-right: 1%"/>
+  <img src="./screenshots/menu.jpg" alt="Menu page" width="48%"/>
+</p>
+
+### Chat page and Profile page
+<p float="left">
+  <img src="./screenshots/chat.jpg" alt="Chat screen" width="48%" style="margin-right: 1%"/>
+  <img src="./screenshots/profile.jpg" alt="Profile page" width="48%"/>
+</p>
+
