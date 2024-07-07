@@ -30,7 +30,7 @@ Buzz is a modern chat app written in Flutter that allows users to use it in real
 
 3. Launching the application:
  ```sh
- flutter get run
+ flutter run
  ```
 
 ## Screenshots
