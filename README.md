@@ -11,8 +11,8 @@ Buzz is a modern chat app written in Flutter that allows users to use it in real
 
 ## Technology
 
-- **Frontend**: Fluttering
-- **Backend**: Firebase (authentication, Firestore, cloud functions)
+- **Frontend**: Flutter
+- **Backend**: Firebase (Authentication, Firestore, Cloud Functions)
 - **Languages**: Dart
 
 ## Installation
